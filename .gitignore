@@ -9,3 +9,4 @@ __pycache__/
 
 # Local generated data
 data/synthetic/
+data/evaluation/
