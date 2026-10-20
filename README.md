@@ -17,3 +17,13 @@ uv run pytest
 
 See [docs/synthetic_data.md](docs/synthetic_data.md) for the data model, stage
 definitions, success criteria and right-censoring rules.
+
+## Analytics engine
+
+```bash
+uv run python -m opspilot.analytics                          # five analyses, all customers
+uv run python -m opspilot.analytics --segment Enterprise     # filter (repeatable)
+uv run python -m opspilot.analytics --period-start 2026-04-01 --json
+```
+
+See [docs/analytics.md](docs/analytics.md) for metric definitions and limitations.
