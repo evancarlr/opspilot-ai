@@ -46,4 +46,6 @@ Future: Anthropic API and Streamlit.
 
 ## Current Milestone
 Milestone 1 (complete): synthetic Relay onboarding data.
-Do not build the LLM agent or frontend until Milestone 2 is requested.
+Milestone 2 (complete): deterministic analytics engine in src/opspilot/analytics/
+(see docs/analytics.md). It must never read data/evaluation/.
+Do not build the LLM agent or frontend until Milestone 3 is requested.
